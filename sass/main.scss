@@ -291,3 +291,11 @@ p > code {
 	margin-left: $month-indent;
 	}
 	
+#configr {
+  float:right;
+  margin-top:-7px;
+  opacity:.8;
+}
+#configr:hover {
+  opacity:1;
+}
