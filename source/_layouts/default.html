@@ -34,15 +34,16 @@
 		<div class="wrap">
 
 			<header>
-				<div class="title">{{ site.title }}</div>
-				<div class="navi">
+				<div class="title"><a href="{{ root_url }}">{{ site.title }}</a></div>
+				<div class="subtitle">{{ site.subtitle }}</div>
+				{% comment %}<div class="navi">
 					<ul>
 						<li><a href="{{ root_url }}/">home</a></li>
 						<li><a href="{{ root_url }}/about">about</a></li>
 						<li><a href="http://github.com/arthurfurlan">github</a></li>
 						<li><a href="{{ root_url }}/archives">archives</a></li>
 					<ul>
-				</div> <!-- // .navi -->
+				</div> <!-- // .navi -->{% endcomment %}
 			</header>
 
 				{{ content | expand_urls: root_url }}
