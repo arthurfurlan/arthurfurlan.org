@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "lets get back to blogging"
+title: "Lets get back to blogging"
 date: 2013-09-04 01:50
 comments: true
 categories: octopress blog
