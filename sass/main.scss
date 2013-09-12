@@ -208,16 +208,19 @@ pre {
 	border: 1px solid $light-gray;
 	@include border-radius(4px);
 	line-height: $code-block-line-height;
-	background-color: $code-background-color;
+	background-color: #333;;
+  color: #e1e1e1;
 	overflow: hidden;
-	
+  padding: 10px;
+  font-size: 0.9em;
+
 	.clip-btn {
 		position: absolute;
 		top: 0px;
 		right: 1em;
 		font-size: 0.8em;
 		text-decoration: underline;
-		
+
 		@media only screen and (max-width: 1000) {
 			display: none;
 			}

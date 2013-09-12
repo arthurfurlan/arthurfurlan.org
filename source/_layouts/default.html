@@ -65,7 +65,7 @@
 				return '<div class="caption">' + $('img', this).attr('title') + '</div>';
 			});
 
-			// Prettify code
+			{% comment %}// Prettify code
 			$('code').addClass('prettyprint');
 			$('pre code').addClass('linenums');
 
@@ -79,7 +79,7 @@
 				afterCopy: function(){
 					$(this).replaceWith('<div class="clip-btn">copied!');
 					}
-			});
+			});{% endcomment %}
 		});
 	</script>
 </html>
