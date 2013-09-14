@@ -24,18 +24,18 @@
 		<script src="{{ root_url }}/js/jquery.zclip.min.js"></script>
 
 		<!-- Syntax highlighter -->
-		<link href="{{ root_url }}/stylesheets/prettify-hemisu.css" type="text/css" rel="stylesheet" />
+		{% comment %}<link href="{{ root_url }}/stylesheets/prettify-hemisu.css" type="text/css" rel="stylesheet" />{% endcomment %}
 		<script type="text/javascript" src="{{ root_url }}/js/prettify.js"></script>
 
 		<!--<link href="http://feeds.feedburner.com/turkeltaub" rel="alternate" title="{{ site.title }}" type="application/rss+xml" />-->
 
 	</head>
-	<body onload="prettyPrint()">
+	<body{% comment %} onload="prettyPrint()"{% endcomment %}>
 
 		<div class="wrap">
 
 			<header>
-				<div class="title"><a href="{{ root_url }}">{{ site.title }}</a></div>
+				<div class="title"><a href="/">{{ site.title }}</a></div>
 				<div class="subtitle">{{ site.subtitle }}</div>
 				{% comment %}<div class="navi">
 					<ul>
