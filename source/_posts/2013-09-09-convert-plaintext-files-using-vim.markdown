@@ -3,7 +3,7 @@ layout: post
 title: "Converting plaintext files using VIM"
 date: 2013-09-09 21:33
 comments: true
-categories: vim unix dos debian ubuntu
+categories: vim unix dos debian ubuntu terminal
 ---
 I work with mixed environments: some people using Windows, some people using Linux (or Mac).
 If you are in the same situation, a common scenario is to be working on a remote linux server
