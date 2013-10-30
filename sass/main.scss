@@ -312,6 +312,7 @@ header .title a {
 header .subtitle {
   color: $gray;
   font-size: 1.2em;
+  padding-bottom: 40px;
 }
 .comment-count {
   color: $gray;
@@ -319,4 +320,22 @@ header .subtitle {
 }
 #configr-ribbon {
   top:9px !important;
+}
+div.social ul {
+  margin: 0;
+  margin-top: -10px;
+  margin-bottom: 30px;
+  padding: 0;
+}
+div.social li {
+  display:inline-block;
+  width: 19%;
+}
+div.social a {
+  font-size: .8em;
+  color: $gray;
+  text-transform:uppercase;
+}
+div.social a:hover {
+  color: $main-color;  
 }
