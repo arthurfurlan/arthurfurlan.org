@@ -3,10 +3,10 @@ layout: post
 title: "Displaying directories first in Mac OSX"
 date: 2013-10-26 08:35
 comments: true
-categories: macosx unix compatibility terminal
+categories: mac unix compatibility terminal brew
 ---
-I'm a linux user which recently moved to Mac OSX, so most of the time I'm using the Terminal app
-and something that I really missed in the default **`ls`** command of Mac is that it does not have
+I'm a linux user which recently moved to Mac. Most of the time I'm using the Terminal application
+and something I really miss in the commad **`ls`** of Mac is that it does not have
 the option **`--group-directories-first`**.
 
     $ ls --group-directories-first
