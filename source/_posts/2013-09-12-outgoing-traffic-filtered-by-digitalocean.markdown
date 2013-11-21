@@ -8,7 +8,7 @@ categories: sysadmin firewall network mail
 I usually host my machines on [Linode](http://www.linode.com/?r=3ce91ceda1f3059c009e913fe993fd0ef39601d8)
 but today I helped a friend of mine to configure his brand new server on **DigitalOcean**.
 
-We were using [Configr](http://confi.gr) to provide the services deployment and just
+We were using [Configr](http://configr.com) to provide the services deployment and just
 after the initial configuration, we setup *Mandrill Add-On* in order to improve
 the email deliverability rate. Everything configured and properly deployed, so it's
 time to test the environment... and we got no emails delivered. =/
