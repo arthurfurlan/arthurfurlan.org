@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Playing with Python and GeoIP in Debian"
-date: 2013-12-17 11:25
+date: 2009-10-14 11:25
 comments: true
 categories: python, debian, geoip, network
 ---
