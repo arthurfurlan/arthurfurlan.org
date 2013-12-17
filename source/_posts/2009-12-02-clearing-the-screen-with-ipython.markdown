@@ -3,9 +3,9 @@ layout: post
 title: "Clearing the screen with IPython"
 date: 2009-12-02 12:20
 comments: true
-categories: python, ipython, bash, shell, clear
+categories: python ipython bash shell clear
 ---
-Some time ago I [changed my default shell to use IPython](#) instead of Bash. The [IPython](http://ipython.org) is a
+Some time ago I [changed my default shell to use IPython](/using-ipython-as-your-default-shell/) instead of Bash. The [IPython](http://ipython.org) is a
 really great as a shell and IMHO has great advantages but for those who, like me, are completely addicted to the `clear`
 command, the IPython's clear is a huge disadvantage.
 
@@ -23,7 +23,7 @@ You can take a look at the documentation of the default function for the clear c
         %clear dhist - clear dir history
 
 So I created a new function to extend the first one by adding the option to clear the screen when no args were passed. If
-you'd like to do the same, just add the following lines in your `~/.IPython/ipy_user_conf.py`:
+you'd like to do the same, you just need to add the following lines in your `~/.IPython/ipy_user_conf.py`:
 
     def new_clear_f(*args, **kwargs):
         ''' Extend the default clear function adding the option to

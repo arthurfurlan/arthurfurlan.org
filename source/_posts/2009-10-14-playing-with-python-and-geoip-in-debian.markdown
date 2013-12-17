@@ -3,18 +3,18 @@ layout: post
 title: "Playing with Python and GeoIP in Debian"
 date: 2009-10-14 11:25
 comments: true
-categories: python, debian, geoip, network
+categories: python debian geoip network sysadmin
 ---
 Sometime ago I needed to find out the origin country of an hostname (actually a list of hostnames). As
-Debian has a GeoIP database available via aptitude, I could accomplish that using this database and the
-Python's GeoIP module.
+[Debian](http://debian.org) has a GeoIP database available via aptitude, I could accomplish that using this database and the
+[Python](http://python.org) GeoIP module.
 
 First of all I installed the required packages:
 
     $ aptitude install geoip-database python-geoip
 
 
-And used the following small script that configures the Python's GeoIP module to use the Debian's GeoIP database:
+and then I used the following small script that configures the Python's GeoIP module to use the Debian's GeoIP database:
 
     #!/usr/bin/env python
     # -*- coding: utf-8 -*-
@@ -47,10 +47,12 @@ And used the following small script that configures the Python's GeoIP module to
 
 Some tests to check if it is really working... and looks like it is. :)
 
-    $ python address_country.py configr.com
+    $ python address_country.py brasil.gov.br
     Brazil
-    $ python address_country.py debian.org
+    $ python address_country.py configr.com
     United States
+    $ python address_country.py debian.com
+    Netherlands
     $ python address_country.py mandriva.com
     France
     $ python address_country.py some-nonexistent-domain.org

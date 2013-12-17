@@ -3,11 +3,11 @@ layout: post
 title: "Using IPython as your default shell"
 date: 2009-10-29 11:47
 comments: true
-categories: python, ipython, bash, shell, linux
+categories: python ipython bash shell linux sysadmin
 ---
 If you are a shell addicted person and like [Python](http://python.org), then the [IPython](http://ipython.org)
 was made just for you. The IPython
-provides a very usefull feature (that may looks a bit strange at first) of mixing Python and Shell commands
+provides a very usefull feature (that may look a bit strange at first) of mixing Python and Shell commands
 in a easy and intuitive way. I don't pretend to say why you should use IPython instead of your current shell
 but I believe that if you know Python, you should prefer to write Python code instead of Bash code.
 
@@ -69,6 +69,7 @@ And a mixed of Python and Bash commands:
               ...    
     arthurfurlan.org
     configr.com
+
 
 Setting the IPython as your default shell
 -----------------------------------------
